@@ -2,7 +2,7 @@
 """ Module to demonstrate test using doctest"""
 
 
-def add_integer(a, b):
+def add_integer(a, b=98):
     """ Adds two integers
         a and b must be integers or floats,
         otherwise raise a TypeError exception with the message
