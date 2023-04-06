@@ -19,4 +19,4 @@ TypeError: a must be an integer
 Test if it raises value error for b
 >>> a.add_integer(2, "abebe")
 Traceback (most recent call last):
-TypeError: b must be an integer
+TypeError: b must be an integer:
