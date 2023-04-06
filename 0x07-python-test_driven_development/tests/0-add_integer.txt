@@ -1,0 +1,22 @@
+TESTS FOR 0-add_integer.py
+==========================
+
+>>> a = __import__("0-add_integer")
+
+Test if it actually adds two integers
+>>> a.add_integer(2,35)
+37
+
+Test if it returns integer
+>>> type(a.add_integer(2.5,35.5)) is int
+True
+
+Test if it raises value error for a
+>>> a.add_integer("abebe", 2)
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+Test if it raises value error for b
+>>> a.add_integer(2, "abebe")
+Traceback (most recent call last):
+TypeError: b must be an integer
